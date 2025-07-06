@@ -1,4 +1,4 @@
-# 🔁 Redis Job Queue System with Node.js & Docker
+#  Redis Job Queue System with Node.js & Docker
 
 A simple, production-style **job queue system** built using **Redis**, **Node.js**, and **Docker Compose**.
 
@@ -9,7 +9,7 @@ It demonstrates a basic **producer-consumer** architecture where:
 
 ---
 
-## 🚀 Features
+## Features
 
 - ⚙️ Redis-backed message queue
 - 🧱 Publisher-Worker separation (loosely coupled)
