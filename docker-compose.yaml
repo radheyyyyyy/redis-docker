@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  redisQueue:
+    image: redis
+    container_name: redisQueue
+
+  Engine:
+    image: radhey28/redoc
+    depends_on:
+      - redisQueue
+    container_name: Engine
+    ports:
+      - "3000:3000"
